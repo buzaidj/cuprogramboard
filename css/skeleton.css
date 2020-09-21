@@ -45,9 +45,41 @@
   float: left;
   box-sizing: border-box; }
 
+@media(max-width: 600px){
+  .row-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
+  /* Create two equal columns that sits next to each other */
+  .column-image {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  .column-image img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  img.posters {
+    width: 40%;
+  }
+
+  /* SIDEBAR */
+  img.sidebar {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: block;
+
+  }
+
+
+}
 /* For devices larger than 100px */
-@media (min-width: 100px) {
+@media (min-width: 600px) {
   .container {
     width: 80%; }
   .column,
@@ -205,6 +237,10 @@ h5 { font-size: 2.0rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
