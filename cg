@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<!-- Hello! This is a redirect to our campusgroups page. Typing https://cuprogramboard.com/cg will redirect you to the link you put in below!-->
+<meta charset="utf-8">
+<title>Redirecting to the CG signup page.</title>
+<!-- Edit the URL in the URL field below to a new link before announcing each show -->
+<meta http-equiv="refresh" content="0; URL=https://cornell.campusgroups.com/CUPB/rsvp_boot?id=1016885">
+<link rel="canonical" href="https://example.com/">
