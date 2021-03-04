@@ -81,13 +81,6 @@
 
 }
 
-
-@media (max-width: 849px){
-  .three.columsn.nav {
-      display:none;
-  }
-}
-
 /* For devices larger than 100px */
 @media (min-width: 600px) {
   .container {
@@ -260,6 +253,13 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0; }
+
+@media (max-width: 849px){
+  .three.columsn.nav {
+      display:none;
+      visibility:hide;
+  }
+}
 
 
 /* Links
