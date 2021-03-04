@@ -45,6 +45,8 @@
   float: left;
   box-sizing: border-box; }
 
+.three.columns.nav                  { width: 22%}
+
 @media(min-width: 100px){
   .row-image {
     display: flex;
@@ -78,6 +80,14 @@
 
 
 }
+
+
+@media (max-width: 849px){
+  .three.columsn.nav {
+      display:none;
+  }
+}
+
 /* For devices larger than 100px */
 @media (min-width: 600px) {
   .container {
@@ -96,7 +106,6 @@
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .three.columns.nav                  { width: 22%}
 
   .four.columns                   { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
